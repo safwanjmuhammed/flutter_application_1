@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("LoginPage",),
+          title: const Text("LOGIN PAGE",),
           //centerTitle: true,
         ),
         body: SingleChildScrollView(
@@ -16,8 +16,8 @@ class HomePage extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.only(top: 20),
                 child: Text(
-                  "LoginPage",
-                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                  "LOGIN",
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                 ),
               ),
               const Padding(
@@ -25,8 +25,8 @@ class HomePage extends StatelessWidget {
                 child: TextField(
                   decoration: InputDecoration(
                     prefixIcon:  Icon(Icons.account_circle),
-                      label: Text("UserName"),
-                      hintText: "UserName must be your email",
+                      label: Text("Username"),
+                      hintText: "Username must be your email",
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(20)),
                       )),
